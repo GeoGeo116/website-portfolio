@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+html{
+    font-size: 16px;
+    font-family:roboto;
+}
+
+body{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+h1{
+    margin: 0;
+}
+
+.images-container{
+    width: 100%;
+    overflow: hidden;
+}
+
+.images-container img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Header styles */
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 2rem;
+    border-bottom: 1px solid black;
+    align-items: center;
+    height: 70px;
+    overflow: hidden;
+}
+
+header .logo{
+    display: flex;
+    align-items: center;
+}
+
+header img{
+    height: 70px;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+}
+
+header nav ul{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    margin-right: 2rem;
+}
+
+header button{
+    float: right;
+    cursor: pointer;
+    padding: 0.5rem 1.5rem;
+    background-color:darkcyan;
+    border: none;
+    border-radius: 20px;
+    color: white;
+}
+
+header #burger{
+    display: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:620px) {
+    header{
+        height: 50px;
+    }
+
+    header h1{
+        display: none;
+    }
+
+    header .logo img{
+        height: 50px;
+    }
+
+    header nav{
+        display: none;
+    }
+
+    header #burger{
+        display:inline;
+        height: 2rem;
+    }
+}
+
+/*Hero styles*/
+main .hero{
+    background-image: url("./img/hero-splash.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 300px;
+    justify-content: center;
+    align-content: center;
+}
+
+main .hero h1{
+    color: white;
+    font-size: 2.5rem;
+    background-color: rgba(0, 0, 0, 0.518);
+    max-width: 800px;
+    padding: 0.5rem;
+    margin: 60px;
+}
+
+
+@media screen and (max-width:620px) {
+    main .hero h1{
+        align-self: center;
+        width: 75%;
+        margin: 0 auto;
+        font-size: 2rem;
+    }
+}
+
+/*Projects styles*/
+.projects{
+    max-width: 1000px;
+    padding: 2rem 3rem;
+    align-items: center;
+    justify-items: center;
+    margin: 2rem auto;
+    background-color:ghostwhite;
+}
+
+.projects .project-line{
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.projects .project{
+    display: flex;
+    width: 100%;
+    height: auto;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    align-items: end;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.projects .project p{
+    background-color: rgba(0, 0, 0, 0.687);
+    margin: 0;
+    width: 100%;
+    height: 2.5rem;
+    align-content: center;
+    margin-top: 10rem;
+}
+
+@media screen and (max-width:620px) {
+    .projects{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .projects .project-line{
+        flex-direction: column;
+    }
+}
+
+/*Team styles*/
+.team{
+    padding: 2rem 1rem;
+    text-align: center;
+}
+.team .images-container{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    padding: 1rem 0;
+    gap: 1%;
+}
+
+.team .images-container .member{
+    background-color:ghostwhite;
+    box-shadow: -2px 2px 7px -3px;
+    padding: 1%;
+}
+
+.team .images-container img{
+    margin: 0;
+}
+
+.team .images-container .member-info{
+    background-color: black;
+    color: white;
+    margin: 0;
+    height: 3rem;
+    align-content: center;    
+}
+
+.team .member-info .title{
+    color: rgba(255, 255, 255, 0.678);
+    font-style: italic;
+    font-size: 0.75rem;
+}
+
+@media screen and (max-width:620px) {
+    .team .images-container{
+        flex-direction: column;
+    }
+}
+
+/*Contact styles*/
+.contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem auto;
+    flex-wrap: wrap;
+    max-width: 1000px;
+}
+
+.contact .contact-info{
+    width: 280px;
+}
+
+.contact img{
+    width: 280px;
+    height: auto;
+    display: block;
+}
+
+@media screen and (max-width: 620px) {
+    .contact .contact-info{
+        text-align: center;
+    }
+}
+
+
+/*Footer styles*/
+footer{
+    font-size: 0.75rem;
+    height: 3rem;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    align-content: center;
+}
