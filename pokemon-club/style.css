@@ -187,12 +187,14 @@ header .menu-icon{
         height: 1350px;
     }
 
-
     .cards-container{
         width: 100%;
         gap: 20px;
     }
-    
+
+    .card-container{
+        width: 230px;
+    }
 }
 
 /* Splitter Styles */
@@ -273,9 +275,6 @@ header .menu-icon{
         font-size: smaller;
         width: 80%;
     }
-
-
-
 }
 
 /*Footer Styles*/
