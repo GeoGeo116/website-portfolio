@@ -3,9 +3,9 @@ body{
     flex-direction: column;
     height: 100vh;
     width: 100%;
-    background-color: rgb(234, 234, 234);
+    background-color: #0F172A;
     font-family: monospace;
-    color: black;
+    color: rgb(255, 255, 255);
     margin: 0;
     user-select: none;
     font-size: 16px;
@@ -16,61 +16,74 @@ a{
 }
 
 header{
-    height: 70px;
-    margin: 10px;
-    border-radius: 20px;
-    align-content: center;
+    position:  fixed;
     display: flex;
-    justify-content: space-between; 
+    flex-direction: column;
+    height: 100%;
+    width: 175px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: #020617;
+    box-shadow: 0px 0px 10px 0px #2DD4BF;
+}
+
+header h2{
+    align-self: center;
+}
+
+#contact-links{
+    align-self: center;
+}
+
+#contact-links img{
+    width: 30px;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+}
+
+nav .nav-link{
+    display: flex;
+    height: 60px;
     align-items: center;
-    background-color: white;
-    box-shadow: 0px 0px 20px 0px;
+    gap: 10px;
 }
 
-header h1{
-    margin: 0;
-    margin-left: 20px;
+nav .nav-link img{
+    margin-left: 10px;
+    height: 25px;
 }
 
-#header-links{
-    margin-right: 30px;
-}
-
-#header-links a{
-    background-color: black;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 20px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: background-color ease 0.3s;
-}
-
-#header-links a:hover{
-    background-color: rgb(35, 35, 35);
+nav .nav-link:hover{
+    background-color: #94a3b842;
+    border-left: 3px solid #2dd4be;
+    transition: background-color 0.2s linear, border-left 0.1s linear;
 }
 
 main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0px 50px;
+    margin: 0px 250px;
 }
 
-#about{
-    width: 100%;
-    max-width: 1000px;
-}
 
-#links{
-    width: 100%;
-    max-width: 1000px;
-}
-
-#links td{
+#projects td{
     border: 1px solid black;
     width: 150px;
     height: 2em;
     text-align: center;
+}
+
+/*For tablets*/
+@media screen and (max-width: 900px){
+    
+}
+
+
+/*For Phones*/
+@media screen and (max-width: 600px){
 
 }
