@@ -142,6 +142,10 @@ main{
         display: none;
     }
 
+    #sidenav{
+        box-shadow: none;
+    }
+
     #sidenav .nav-link{
         display: flex;
     }
@@ -151,6 +155,10 @@ main{
         padding-top: 100px;
         width: 80vw;
         margin: 0;
+    }
+
+    .portfolio-sec{
+        margin-left: 0px;
     }
 }
 
