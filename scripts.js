@@ -8,10 +8,6 @@ function closeNav(){
     document.body.style.backgroundColor = "#0F172A";
 }
 
-function toAbout(){
-    closeNav();
-}
-
-function toProjects(){
+function toSection(Section){
     closeNav();
 }

@@ -16,25 +16,49 @@
         </section>
         <hr width="120px" style="margin-top:20px; border: 1px solid white">
         <nav class="navigation">
-            <a href="#about"><section class="nav-link">
-                <img src="img/user.png" alt="">
-                <p>About</p>
-            </section></a>
-            <a href="#projects"><section class="nav-link">
-                <img src="img/projects.png" alt="">
-                Projects
-            </section></a>
+            <a href="#about"><section class="nav-link" onclick="toSection(about)">
+            <img src="img/user.png" alt="">
+            <p>About</p>
+        </section></a>
+        <a href="#projects"><section class="nav-link" onclick="toSection(projects)">
+            <img src="img/projects.png" alt="">
+            Projects
+        </section></a>
+        <a href="#skills"><section class="nav-link" onclick="toSection(skills)">
+            <img src="img/skill-alt.png" alt="">
+            Skills
+        </section></a>
+        <a href="#experience"><section class="nav-link" onclick="toSection(experience)">
+            <img src="img/graduation-cap.png" alt="">
+            Experience
+        </section></a>
+        <a href="#contact"><section class="nav-link" onclick="toSection(contact)">
+            <img src="img/envelope.png" alt="">
+            Contact
+        </section></a>
         </nav>
     </header>
     <div id="sidenav" class="navigation">
         <img id="cross-small" src="img/cross-small.png" alt="" width="30px" onclick="closeNav()">
-        <a href="#about"><section class="nav-link" onclick="toAbout()">
+        <a href="#about"><section class="nav-link" onclick="toSection(about)">
             <img src="img/user.png" alt="">
             <p>About</p>
         </section></a>
-        <a href="#projects"><section class="nav-link" onclick="toProjects()">
+        <a href="#projects"><section class="nav-link" onclick="toSection(projects)">
             <img src="img/projects.png" alt="">
             Projects
+        </section></a>
+        <a href="#skills"><section class="nav-link" onclick="toSection(skills)">
+            <img src="img/skill-alt.png" alt="">
+            Skills
+        </section></a>
+        <a href="#experience"><section class="nav-link" onclick="toSection(experience)">
+            <img src="img/graduation-cap.png" alt="">
+            Experience
+        </section></a>
+        <a href="#contact"><section class="nav-link" onclick="toSection(contact)">
+            <img src="img/envelope.png" alt="">
+            Contact
         </section></a>
     </div>
     <main>
@@ -79,6 +103,21 @@
                     <td>Codecademy</td>
                 </tr>
             </table>
+        </section>
+        <section id="skills" class="portfolio-sec">
+            <h2>Skills</h2>
+            <p></p>
+            <!--Programming languagess, levels -->
+        </section>
+        <section id="experience" class="portfolio-sec">
+            <h2>Experience</h2>
+            <p></p>
+            <!-- Work Experience and stuff-->
+        </section>
+        <section id="contact" class="portfolio-sec">
+            <h2>Contact</h2>
+            <p></p>
+            <!--Contact Details-->
         </section>
     </main>
     <footer>

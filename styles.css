@@ -100,7 +100,9 @@ main{
 }
 
 .portfolio-sec{
-    height: 100vh;
+    margin-left: 175px;
+    width: 80%;
+    height: 70vh;
 }
 
 
