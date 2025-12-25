@@ -83,6 +83,7 @@ header h2{
     box-shadow: 0px 0px 10px 0px #2DD4BF;
     transition: left 0.3s ease;
 }
+/*Make it so that the active link sticks out*/
 
 #sidenav .nav-link{
     display: none;
