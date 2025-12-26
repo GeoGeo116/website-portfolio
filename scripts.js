@@ -10,6 +10,10 @@ function closeNav(){
     document.getElementById("sidenav").style.boxShadow = "none";
 }
 
-function toSection(Section){
+function toSection(section){
     closeNav();
+    const element = document.getElementById(section);
+    if(element){
+        element.scrollIntoView({behavior: 'smooth'});
+    }
 }
