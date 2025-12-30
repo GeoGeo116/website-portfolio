@@ -35,7 +35,7 @@ header #burger-menu{
     display: none;
 }
 
-header h2{
+header h1{
     text-align: center;
 }
 
@@ -197,18 +197,6 @@ main{
 
 /*For Phones*/
 @media screen and (max-width: 600px){
-    h1{
-       font-size: 25px;
-    }
-
-    header img{
-        scale: 0.8;
-    }
-
-    #cross-small{
-        margin: 35px 0 30px 15px;
-    }
-
     #projects #projects-container{
         width: 300px;
     }
