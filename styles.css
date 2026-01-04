@@ -12,7 +12,11 @@ body{
     color: rgb(255, 255, 255);
     margin: 0;
     user-select: none;
-    font-size: 16px;
+    font-size: 20px;
+}
+
+p{
+    line-height: 2rem;
 }
 
 a{
@@ -102,11 +106,13 @@ main{
 
 .portfolio-sec{
     margin-left: 175px;
+    max-width: 1000px;
     width: 100%;
     min-height: 50vh;
 }
 
 .portfolio-sec h2{
+    font-size: 45px;
     text-align: center;
     background-color: white;
     color: #020617;
@@ -160,6 +166,16 @@ main{
 
 #skills-img img{
     height: 100px;
+}
+
+#contact .contact-card{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+#contact img{
+    height: 50px;
 }
 
 /*For tablets*/
@@ -218,15 +234,23 @@ main{
        font-size: 25px;
     }
 
-    header img{
-        scale: 0.8;
-    }
-
     #cross-small{
         margin: 35px 0 30px 15px;
     }
 
     #projects #projects-container{
         width: 300px;
+    }
+
+    #skills img{
+        height: 70px;
+    }
+
+    #contact{
+        font-size: smaller;
+    }
+
+    #contact img{
+        height: 30px;
     }
 }
