@@ -168,6 +168,25 @@ main{
     height: 100px;
 }
 
+#experience #experience-timeline{
+    display: flex-box;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#experience .experience-item{
+    background-color: #020617;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #000000;
+    margin-bottom: 20px;
+}
+
+#experience .experience-item i{
+    font-size: smaller;
+}
+
+
 #contact .contact-card{
     display: flex;
     align-items: center;
@@ -209,7 +228,7 @@ main{
 
     #sidenav{
         box-shadow: none;
-    }
+    }  
 
     #sidenav .nav-link{
         display: flex;
