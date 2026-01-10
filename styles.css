@@ -41,6 +41,7 @@ header #burger-menu{
 
 header h1{
     text-align: center;
+    font-size: 30px;
 }
 
 #contact-links{
@@ -184,6 +185,10 @@ main{
 
 #experience .experience-item i{
     font-size: smaller;
+}
+
+#experience .experience-item h4{
+    text-align: center;
 }
 
 
