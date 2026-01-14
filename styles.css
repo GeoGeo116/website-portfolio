@@ -146,6 +146,10 @@ main{
     object-fit:contain;
 }
 
+#projects p{
+    text-align: center;
+}
+
 #projects .p-link{
     display: flex;
     justify-content: center;
@@ -227,7 +231,7 @@ main{
         display: inline;
     }
 
-    .navigation .nav-link{
+    .navigation{
         display: none;
     }
 
@@ -248,6 +252,14 @@ main{
 
     .portfolio-sec{
         margin-left: 0px;
+    }
+
+    .portfolio-sec p,li{
+        font-size: 18px;
+    }
+
+    #experience .experience-item li{
+        font-size: 16px;
     }
 }
 
@@ -271,10 +283,15 @@ main{
     }
 
     #contact{
-        font-size: smaller;
+        font-size:large;
+    }
+
+    #contact .contact-card{
+        flex-direction: column;
     }
 
     #contact img{
-        height: 30px;
+        height: 100px;
+        align-self: center;
     }
 }
