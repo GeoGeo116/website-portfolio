@@ -94,10 +94,6 @@ header h1{
     display: none;
 }
 
-#cross-small{
-    margin: 35px 0 30px 30px;
-}
-
 main{
     display: flex;
     flex-direction: column;
@@ -271,7 +267,7 @@ main{
     }
 
     #cross-small{
-        margin: 35px 0 30px 15px;
+        margin: 35px 0 30px 20px;
     }
 
     #projects #projects-container{
